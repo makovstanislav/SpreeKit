@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(08f1be43-cd7b-4609-811d-33757bef646d), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/Stan/Alpha/alpha/target/scala-3.1.2/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E103] Syntax Error: /Users/Stan/Alpha/alpha/src/main/scala/Main.scala:7:0 --[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m7 |[0mr.statusCode[0m
+[0m[[0m[31merror[0m] [0m[0m  |[31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |Illegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/Stan/Alpha/alpha/src/main/scala/Main.scala:5:8 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m5 |[0m[33mval[0m [36mr[0m = requests.get([31m"https://api.github.com/users/lihaoyi"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m  |        [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |        Not found: requests[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Jun 4, 2022 1:59:39 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m
