@@ -1,0 +1,7 @@
+{
+    "range": "RawResponses!A2:A20",
+    "majorDimension": "COLUMNS",
+    "values": [
+      "A", "B"
+    ]
+  }

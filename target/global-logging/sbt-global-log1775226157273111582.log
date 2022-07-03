@@ -1,0 +1,10 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(28b68fa8-c94d-4605-8590-23874b0e188c), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to /Users/Stan/Alpha/alpha/target/scala-3.1.2/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m/Users/Stan/Alpha/alpha/src/main/java/SheetsExample.java: SheetsExample.java uses or overrides a deprecated API.[0m
+[0m[[0m[0minfo[0m] [0m[0m/Users/Stan/Alpha/alpha/src/main/java/SheetsExample.java: Recompile with -Xlint:deprecation for details.[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 2 s, completed Jun 29, 2022 8:53:00 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

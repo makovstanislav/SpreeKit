@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(9dda32ae-312a-4ba8-977a-1386154920a6), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/Stan/Alpha/alpha/target/scala-3.1.2/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E134] Type Error: /Users/Stan/Alpha/alpha/src/main/scala/Main.scala:11:8 ---[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m11 |[0m[33mval[0m [36mr[0m = requests.post([0m
+[0m[[0m[31merror[0m] [0m[0m   |        [31m^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |None of the overloaded alternatives of [33mmethod[0m [35mapply[0m in [33mclass[0m [35mRequester[0m with types[0m
+[0m[[0m[31merror[0m] [0m[0m   | (r: requests.Request, data: requests.RequestBlob, chunkedUpload: Boolean): [0m
+[0m[[0m[31merror[0m] [0m[0m   |  requests.Response[0m
+[0m[[0m[31merror[0m] [0m[0m   | (url: String, auth: requests.RequestAuth, params: Iterable[(String, String)], [0m
+[0m[[0m[31merror[0m] [0m[0m   |  headers[0m
+[0m[[0m[31merror[0m] [0m[0m   |: Iterable[(String, String)], data: requests.RequestBlob, readTimeout: Int, [0m
+[0m[[0m[31merror[0m] [0m[0m   |  connectTimeout[0m
+[0m[[0m[31merror[0m] [0m[0m   |: Int, proxy: (String, Int), cert: requests.Cert, sslContext: [0m
+[0m[[0m[31merror[0m] [0m[0m   |  javax.net.ssl.SSLContext[0m
+[0m[[0m[31merror[0m] [0m[0m   |, cookies: Map[String, java.net.HttpCookie], cookieValues: Map[String, String], [0m
+[0m[[0m[31merror[0m] [0m[0m   |  maxRedirects[0m
+[0m[[0m[31merror[0m] [0m[0m   |: Int, verifySslCerts: Boolean, autoDecompress: Boolean, compress: [0m
+[0m[[0m[31merror[0m] [0m[0m   |  requests.Compress[0m
+[0m[[0m[31merror[0m] [0m[0m   |, keepAlive: Boolean, check: Boolean, chunkedUpload: Boolean): requests.Response[0m
+[0m[[0m[31merror[0m] [0m[0m   |match arguments (([32m"https://accounts.google.com/o/oauth2/v2/auth"[0m : String), ([32m"sslContext"[0m : String), Map[K, String])[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Jun 29, 2022 12:59:18 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
